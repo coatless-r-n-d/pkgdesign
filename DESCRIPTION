@@ -1,0 +1,20 @@
+Package: pkgdesign
+Title: R Package Design Patterns
+Version: 0.0.0.9000
+Authors@R: c(
+        person("James Joseph", "Balamuta",
+               email = "balamut2@illinois.edu", role = c("aut", "cre"),
+                comment = c(ORCID = "0000-0003-2826-8458")
+              )
+    )
+Description: Provides wrapper functions that setup an R package based on 
+    an acceptable design pattern for the task at hand.
+License: GPL (>= 2)
+URL: https://github.com/r-pkg-examples/pkgdesign
+BugReports: https://github.com/r-pkg-examples/pkgdesign/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Imports: 
+    usethis
