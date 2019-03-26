@@ -19,12 +19,12 @@ pattern_data = function(
   usethis::use_directory("R")
   usethis::use_template(
     "roxygen2-dataset-documentation.R",
-    save_as = "data-documentation.R",
+    save_as = "R/data-documentation.R",
     ignore = FALSE,
     open = FALSE,
     package = "pkgdesign"
   )
-  usethis::ui_todo("Add data set documentation into usethis::ui_value(data-documentation.R)")
+  usethis::ui_todo("Add data set documentation into {usethis::ui_value('R/data-documentation.R')}")
 
 
   pattern_pkg_end()
